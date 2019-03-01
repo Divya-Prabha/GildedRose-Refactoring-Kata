@@ -8,7 +8,7 @@ public class AgedBrie implements GlidedRoseItem {
         this.item = item;
     }
 
-    public void updateState() {
+    public void getState() {
         getSellingValue();
         getQualityValue();
     }
