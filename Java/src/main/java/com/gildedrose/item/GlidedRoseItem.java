@@ -1,5 +1,6 @@
-package com.gildedrose.item;
+package main.java.com.gildedrose.item;
 
 public interface GlidedRoseItem {
-    void getState();
+	
+    void updateItemState();
 }

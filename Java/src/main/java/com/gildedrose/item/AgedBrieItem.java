@@ -1,14 +1,14 @@
-package com.gildedrose.item;
+package main.java.com.gildedrose.item;
 
-public class AgedBrie implements GlidedRoseItem {
+public class AgedBrieItem implements GlidedRoseItem {
 
     private final Item item;
 
-    public AgedBrie(Item item) {
+    public AgedBrieItem(Item item) {
         this.item = item;
     }
 
-    public void getState() {
+    public void updateItemState() {
         getSellingValue();
         getQualityValue();
     }
