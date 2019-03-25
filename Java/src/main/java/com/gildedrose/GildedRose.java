@@ -1,4 +1,4 @@
-package main.java.com.gildedrose.item;
+package main.java.com.gildedrose;
 
 import main.java.com.gildedrose.item.GlidedRoseItem;
 import main.java.com.gildedrose.item.GlidedRoseItemFacade;
